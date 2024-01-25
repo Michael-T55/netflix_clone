@@ -1,0 +1,25 @@
+html {
+    font-size: 22px;
+}
+body {
+    background-color: #333;
+    color: whitesmoke;
+
+}
+
+
+.btn{
+    background-color: red;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 0.2rem;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    width: 4rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
