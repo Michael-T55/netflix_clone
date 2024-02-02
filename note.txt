@@ -1,0 +1,27 @@
+padding is used to add space between an element and it content
+and padding has top left right buttom
+an element is like a container or box in which inside you can put a content 
+margin is the space around the element margin lef right top buttom 
+
+16px = 1rem
+32px = 2 rem
+8px = 0.5rem
+4px = 0.25rem
+
+padding  top right buttom left
+padding {10rem 2rem 3rem 4rem;}
+
+a new line element display is block by default
+
+* is a global selector 
+
+read more about flex under mdn
+
+margin: 0 auto;
+a css property
+
+add background image and add linea gradien opacity transperency in the header
+
+flex
+element is a html tag carring avalue
+flex is container that changes the default flow of element from block to flex
