@@ -25,3 +25,39 @@ add background image and add linea gradien opacity transperency in the header
 flex
 element is a html tag carring avalue
 flex is container that changes the default flow of element from block to flex
+
+
+git checkout -b main
+git checkout master
+
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin https
+git push -u origin main
+
+stage 
+commit
+push 
+
+git add "index.html"
+git add "style.css"
+git commit -m "message adding tv section details"
+git push
+
+
+create a netlify account 
+
+replit
+
+2 fonts
+
+100l5.io
+
+rgba 255 ABCDW[E234567RYTUIO43567sdfghj\][-[]klvbnm] 
+red green blue alpha(opacity/transperency)
+
+
+position 
+display
