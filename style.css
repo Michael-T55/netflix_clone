@@ -388,11 +388,18 @@ a {
 
   .list {
     display: block;
+    font-size: 10px;
   }
 
-  .lili {
-    gap: 5.5rem;
+  
   }
+.lll{
+  gap: 5rem;
+}
+  .lili {
+    gap: 2rem;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
