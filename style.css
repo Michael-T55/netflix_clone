@@ -10,11 +10,12 @@
 header {
   padding: 0rem; /*1.2*/
   background-image: linear-gradient(180deg, transparent, black),
-    url(./asset/back\ net.jpg);
+    url(./asset/back\ net.jpg);/*180deg*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  margin-bottom: 100px;
 }
 
 .heading_content {
@@ -243,9 +244,20 @@ hr {
   margin: 2rem;
 }
 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) 
 {
+
+  header{
+    height: 80vh;
+  }
+
+  .logo{
+    width: 7rem;
+    
+  }
+
   .movies_list{
     font-size: 30px;
     text-align: center;
@@ -265,13 +277,18 @@ hr {
     align-items: center;
   }
 
+  .btn1{
+    padding: 0.5rem;
+    width: 5rem;
+  }
+
   .input_g{
     padding: 1rem;
-    
+    width: 20rem;
   border: 2px solid white;
   }
   .btn{
-    width: 20rem;
+    width: 10rem;
     padding: 1rem;
   }
 
@@ -279,6 +296,7 @@ hr {
     margin: 0 auto;
     padding-top: 10rem;
     width: 50%;
+    height: 100px;
   }
 
   .tv_img{
@@ -290,6 +308,9 @@ hr {
     height: 100%;
     flex-direction: column;
     text-align: center;
+    flex-direction: column-reverse;
+    
+    
   }
 
   .phone_img{
@@ -306,6 +327,7 @@ hr {
     height: 100%;
     flex-direction: column;
     text-align: center;
+    flex-direction: column-reverse;
   }
 
   .sect_img{
@@ -318,6 +340,10 @@ hr {
 
   .btn3{
     margin: 1rem;
+  }
+
+  footer{
+    width: 100%;
   }
 }
 
