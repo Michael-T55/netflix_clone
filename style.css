@@ -10,7 +10,7 @@
 header {
   padding: 0rem; /*1.2*/
   background-image: linear-gradient(180deg, transparent, black),
-    url(./asset/back\ net.jpg);/*180deg*/
+    url(./asset/back\ net.jpg); /*180deg*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,6 +49,14 @@ header {
 body {
   background-color: black;
   color: whitesmoke;
+}
+
+ul {
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .logo {
@@ -118,17 +126,17 @@ hr {
   background-color: #333;
   margin-left: 0rem;
 }
-.Enjoy_tv {
+
+.sect1{
   display: flex;
-  height: 400px;
+  align-content: center;
+  width: 80%;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
-  margin: 10rem;
-  
-  padding-top: 0;
+  margin: 0 auto;
+  height: 600px;
 }
-
+  
 .Download {
   display: flex;
   background-color: black;
@@ -225,7 +233,7 @@ hr {
 
 .inb {
   border-radius: 1px;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .U_faq {
@@ -233,96 +241,106 @@ hr {
   margin: 10rem;
 }
 
-.questions_contact_us {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
 .question_par {
   text-align: center;
   margin: 2rem;
 }
 
+footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  color: gray;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 11rem;
+  padding-bottom: 4rem;
+  color: #fff;
+}
+.first_list {
+  display: flex;
+  gap: 11rem;
+}
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) 
-{
+@media only screen and (max-width: 600px) {
+  header {
+    height: 60vh;
+  }
 
-  header{
+  .logo {
+    width: 7rem;
+  }
+
+  .movies_list {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+
+  .parent_container {
     height: 80vh;
   }
 
-  .logo{
-    width: 7rem;
-    
-  }
-
-  .movies_list{
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .title{
-    text-align: center;
-    font-size: 20px;
-  }
-
-  .input_content{
+  .input_content {
     width: 50%;
     justify-content: space-evenly;
     justify-content: space-between;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10rem;
   }
 
-  .btn1{
+  .btn1 {
     padding: 0.5rem;
     width: 5rem;
   }
 
-  .input_g{
+  .input_g {
     padding: 1rem;
     width: 20rem;
-  border: 2px solid white;
+    border: 2px solid white;
   }
-  .btn{
+  .btn {
     width: 10rem;
     padding: 1rem;
   }
 
-  .Enjoy_tv{
-    margin: 0 auto;
-    padding-top: 10rem;
-    width: 50%;
-    height: 100px;
-  }
-
-  .tv_img{
-    width: 50%;
-  }
-
-  .Download{
-    width: 100%;
-    height: 100%;
+  .sect1{
     flex-direction: column;
+    gap: 0;
     text-align: center;
-    flex-direction: column-reverse;
-    
-    
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    height: 400px;
   }
 
-  .phone_img{
+  .tv_img {
     width: 50%;
-
   }
 
-  .stream{
-    margin: 0 auto;
+  .sst{
+    font-size: ;
   }
-
-  .sect{
+  .Download {
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -330,94 +348,118 @@ hr {
     flex-direction: column-reverse;
   }
 
-  .sect_img{
+  .phone_img {
     width: 50%;
   }
 
-  .inb{
-    flex-direction: column;
+  .stream {
+    margin: 0 auto;
+    
   }
 
-  .btn3{
+  .sect {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+
+  .sect_img {
+    width: 50%;
+  }
+
+  .inb {
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  .btn3 {
     margin: 1rem;
   }
 
-  footer{
-    width: 100%;
+  .text-under-faq {
+    flex-wrap: wrap;
+  }
+
+  footer {
+    width: 80%;
+  }
+
+  .list {
+    display: block;
+  }
+
+  .lili {
+    gap: 5.5rem;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .movies_list{
-    
+  .movies_list {
     text-align: center;
   }
+}
 
-  }
+.enjoy_tv {
+  width: 70%;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+}
 
-  .Enjoy_tv{
-    width: 70%;
-    height: 100%;
-    flex-direction: column;
-    text-align: center;
+.tv_img {
+  width: 100%;
+}
 
-    
-  }
+.Download {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
 
-  .tv_img{
-    width: 100%;
-  }
+.phone_img {
+  width: 100%;
+}
 
-  .Download{
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    text-align: center;
-    padding: 2rem;
-  }
+.sect {
+  width: 80%;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
 
-  .phone_img{
-    width: 100%;
-  }
+.sect_img {
+  width: 100%;
+}
 
-  .sect{
-    width: 80%;
-    height: 100%;
-    flex-direction: column;
-    text-align: center;
-    padding: 2rem;
-  }
-
-  .sect_img{
-    width: 100%;
-  }
-
-  .questions_contact_us{
-    justify-content: space-between;
-    gap: 1rem;
-    padding-bottom: 3rem;
-  }
+.questions_contact_us {
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 3rem;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .movies_list{
-    
+  .movies_list {
     text-align: center;
   }
 
-  .Enjoy_tv{
-    width: 70%;
-    height: 100%;
-    text-align: center;
+  .Enjoy_tv {
+    /* width: 70%;
+    height: 70%;/*100 */
+   /* text-align: center; */
   }
 
-  .tv_img{
+  .tv_img {
     width: 100%;
   }
 
-  .Download{
+  .Download {
     width: 100%;
     height: 100%;
     flex-direction: column;
@@ -425,11 +467,11 @@ hr {
     padding: 2rem;
   }
 
-  .phone_img{
+  .phone_img {
     width: 100%;
   }
 
-  .sect{
+  .sect {
     width: 80%;
     height: 100%;
     flex-direction: column;
@@ -437,40 +479,32 @@ hr {
     padding: 2rem;
   }
 
-  .sect_img{
+  .sect_img {
     width: 100%;
   }
 
-  .questions_contact_us{
+  .questions_contact_us {
     justify-content: space-between;
     gap: 1rem;
     padding-bottom: 3rem;
   }
 }
-
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .movies_list{
-    
+  .movies_list {
     text-align: center;
   }
 
-  .Enjoy_tv{
-    width: 80%;
-    text-align: left;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 0;
-    margin: 0 auto;
-    margin-top: 8rem;
+  .Enjoy_tv {
+    height: 10%;
   }
 
-  .tv_img{
-    width: 100%;
+  .tv_img {
+    width: 50%;
   }
 
-  .Download{
+  .Download {
     width: 80%;
     height: 100%;
     flex-direction: row;
@@ -478,17 +512,17 @@ hr {
     padding: 2rem;
   }
 
-  .phone_img{
+  .phone_img {
     width: 100%;
   }
 
-  .stream{
+  .stream {
     display: flex;
-  flex-direction: column;
-  padding: 10rem;
-  margin: 180px;
+    flex-direction: column;
+    padding: 10rem;
+    margin: 180px;
   }
-  .sect{
+  .sect {
     width: 80%;
     height: 100%;
     flex-direction: row;
@@ -497,20 +531,22 @@ hr {
     justify-content: space-between;
   }
 
-  .sect_img{
+  .sect_img {
     width: 80%;
   }
 
-  .questions_contact_us{
+  .questions_contact_us {
     justify-content: space-between;
     gap: 1rem;
     padding-bottom: 3rem;
   }
-}
-  
+
+  .first_d {
+    display: flex;
+    gap: 2rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  ...;
 }
