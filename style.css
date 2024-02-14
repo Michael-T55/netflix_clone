@@ -270,7 +270,7 @@ a {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   header {
-    height: 60vh;
+    height: 70vh;
   }
 
   .logo {
@@ -338,7 +338,7 @@ a {
   }
 
   .sst{
-    font-size: ;
+    font-size: 20px;
   }
   .Download {
     width: 100%;
